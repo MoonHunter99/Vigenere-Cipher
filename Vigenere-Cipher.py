@@ -1,3 +1,4 @@
+print("\033[1;34;40mHE"*130)
 #Kunin yung input ni User AKA yung Message na gustong encrypt ni User
 user_input_message = str(input("What is your message that you want to encrypt?: "))
 #kunin yung Input ni user na keyword na gusto niyang gamitin
@@ -13,3 +14,5 @@ for i in range(len(user_input_message)):
     chpr_txt += chr(number_value + 65)
 #print mo na output mo
 print(chpr_txt)
+print("\nReference: https://www.youtube.com/watch?v=mSuFvv12-vI&t=560s \n")
+print("\033[1;36;40mHE"*130)
